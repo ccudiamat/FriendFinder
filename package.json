@@ -1,0 +1,21 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "My version of the FriendFinder app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccudiamat/FriendFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccudiamat/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/ccudiamat/FriendFinder#readme"
+}
