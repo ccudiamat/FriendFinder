@@ -25,9 +25,9 @@
         <br>
 
         <h3><strong>QUESTION #1</strong></h3>
-        <h4>You like anime.</h4>
+        <h4>I love being on the computer.</h4>
         <select data-placeholder="" class="chosen-select" id="q1">
-            <option value=""></option>
+            <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -36,9 +36,9 @@
         </select>
 
         <h3><strong>QUESTION #2</strong></h3>
-        <h4>You like anime.</h4>
+        <h4>I like being outdoors.</h4>
         <select data-placeholder="" class="chosen-select" id="q2">
-            <option value=""></option>
+            <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -47,9 +47,9 @@
         </select>
 
         <h3><strong>QUESTION #3</strong></h3>
-        <h4>You like anime.</h4>
+        <h4>I wish it was cold all the time.</h4>
         <select data-placeholder="" class="chosen-select" id="q3">
-            <option value=""></option>
+            <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -58,9 +58,9 @@
         </select>
 
         <h3><strong>QUESTION #4</strong></h3>
-        <h4>You like anime.</h4>
+        <h4>Swimming is my favorite sport.</h4>
         <select data-placeholder="" class="chosen-select" id="q4">
-            <option value=""></option>
+            <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -69,9 +69,9 @@
         </select>
 
         <h3><strong>QUESTION #5</strong></h3>
-        <h4>You like anime.</h4>
+        <h4>I'm a hands-on learner.</h4>
         <select data-placeholder="" class="chosen-select" id="q5">
-            <option value=""></option>
+            <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -80,9 +80,9 @@
         </select>
 
         <h3><strong>QUESTION #6</strong></h3>
-        <h4>You like anime.</h4>
+        <h4>Pokemon is cool.</h4>
         <select data-placeholder="" class="chosen-select" id="q6">
-            <option value=""></option>
+            <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -91,9 +91,9 @@
         </select>
 
         <h3><strong>QUESTION #7</strong></h3>
-        <h4>You like anime.</h4>
+        <h4>I'm very competitive and love a good fight.</h4>
         <select data-placeholder="" class="chosen-select" id="q7">
-            <option value=""></option>
+            <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -102,9 +102,9 @@
         </select>
 
         <h3><strong>QUESTION #8</strong></h3>
-        <h4>You like anime.</h4>
+        <h4>I like to go with the flow of things.</h4>
         <select data-placeholder="" class="chosen-select" id="q8">
-            <option value=""></option>
+            <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -113,9 +113,9 @@
         </select>
 
         <h3><strong>QUESTION #9</strong></h3>
-        <h4>You like anime.</h4>
+        <h4>I like to work on my fitness.</h4>
         <select data-placeholder="" class="chosen-select" id="q9">
-            <option value=""></option>
+            <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -124,9 +124,9 @@
         </select>
 
         <h3><strong>QUESTION #10</strong></h3>
-        <h4>You like anime.</h4>
+        <h4>I love anime.</h4>
         <select data-placeholder="" class="chosen-select" id="q10">
-            <option value=""></option>
+            <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -142,7 +142,7 @@
 
         <footer>
             <div class="container">
-                <p><a href="#">API Friends List</a>| <a href="#">Github Repo</a></p>
+                <p><a href="/api/friends">API Element List</a> | <a href="https://github.com/ccudiamat/FriendFinder/tree/gh-pages">Github Repo</a></p>
             </div>
         </footer>
     </div>
@@ -198,7 +198,7 @@
         if (validateForm()) {
             var userData = {
                 name: $("#name").val(),
-                phto: $("#photo").val(),
+                photo: $("#photo").val(),
                 scores: [
                     $("#q1").val(),
                     $("#q2").val(),

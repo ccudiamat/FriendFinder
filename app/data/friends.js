@@ -1,8 +1,8 @@
 var friends = [
 
     {
-        name: "Chris",
-        photo: "https://loremflickr.com/320/240/cat",
+        name: "ELECTRIC TYPE",
+        photo: "https://dnlzsmybcpo0z.cloudfront.net/big/17638.jpg?v=1462392169",
         scores: [
             "5",
             "1",
@@ -17,8 +17,8 @@ var friends = [
         ]
     },
     {
-        name: "Tai",
-        photo: "https://loremflickr.com/320/240/dog",
+        name: "WATER TYPE",
+        photo: "https://i.pinimg.com/474x/c3/61/39/c3613977779d28d1da20e3d814ac1ce0--water-energy-card-games.jpg",
         scores: [
             "4",
             "2",
@@ -33,8 +33,8 @@ var friends = [
         ]
     },
     {
-        name: "Calvin",
-        photo: "https://loremflickr.com/320/240/monkey",
+        name: "FIRE TYPE",
+        photo: "http://firetypepokemon.weebly.com/uploads/3/2/0/5/32050987/160983187.png",
         scores: [
             "1",
             "5",
