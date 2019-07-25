@@ -47,6 +47,38 @@ var friends = [
             "5",
             "5"
         ]
+    },
+    {
+        name: "DRAGON TYPE",
+        photo: "https://vignette.wikia.nocookie.net/sonic-pokemon-unipedia/images/7/70/Dragon_Type_Symbol_by_falke2009.png/revision/latest?cb=20131102043633",
+        scores: [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+        ]
+    },
+    {
+        name: "GRASS TYPE",
+        photo: "https://vignette.wikia.nocookie.net/archie-sonic-pokemon/images/1/12/Grass_Type_Symbol_by_falke2009.png/revision/latest?cb=20131019201013",
+        scores: [
+            "3",
+            "3",
+            "3",
+            "3",
+            "5",
+            "5",
+            "5",
+            "1",
+            "4",
+            "1"
+        ]
     }
 ];
 
