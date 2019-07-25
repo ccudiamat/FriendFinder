@@ -5,27 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FriendFinder Home</title>
+    <title>Pokemon Elemental Survey</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="container">
-        <h2>Survey Questions</h2>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">POKEMON ELEMENTAL SURVEY</h1>
+                <p class="lead">See below for questions!
+                </p>
+            </div>
+        </div>
+
+        <h3>Let's get to know you!</h3>
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Name(Required)</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Type here.." aria-label="Type here.."
+                aria-describedby="basic-addon1" id="name" required>
+        </div>
+
         <br>
 
-        <h3><strong>Tell us about yourself!</strong></h3>
-        <h4>Name <strong>(Required)</strong></h4>
-        <input type="text" name="" id="name" class="form-control" required>
-
-        <h4>Photo <strong>(Required)</strong></h4>
-        <input type="text" name="" id="photo" class="form-control" required>
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Photo(Required)</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Type here.." aria-label="Type here.."
+                aria-describedby="basic-addon1" id="photo" required>
+        </div>
 
         <br>
 
-        <h3><strong>QUESTION #1</strong></h3>
-        <h4>I love being on the computer.</h4>
+        <h3>QUESTION <span class="badge badge-secondary">#1</span></h3>
+        <h5>I love being on the computer.</h5>
         <select data-placeholder="" class="chosen-select" id="q1">
             <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -35,8 +52,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3><strong>QUESTION #2</strong></h3>
-        <h4>I like being outdoors.</h4>
+        <hr>
+
+        <h3>QUESTION <span class="badge badge-secondary">#2</span></h3>
+        <h5>I like being outdoors.</h5>
         <select data-placeholder="" class="chosen-select" id="q2">
             <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -46,8 +65,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3><strong>QUESTION #3</strong></h3>
-        <h4>I wish it was cold all the time.</h4>
+        <hr>
+
+        <h3>QUESTION <span class="badge badge-secondary">#3</span></h3>
+        <h5>I wish it was cold all the time.</h5>
         <select data-placeholder="" class="chosen-select" id="q3">
             <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -57,8 +78,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3><strong>QUESTION #4</strong></h3>
-        <h4>Swimming is my favorite sport.</h4>
+        <hr>
+
+        <h3>QUESTION <span class="badge badge-secondary">#4</span></h3>
+        <h5>Swimming is my favorite sport.</h5>
         <select data-placeholder="" class="chosen-select" id="q4">
             <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -68,8 +91,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3><strong>QUESTION #5</strong></h3>
-        <h4>I'm a hands-on learner.</h4>
+        <hr>
+
+        <h3>QUESTION <span class="badge badge-secondary">#5</span></h3>
+        <h5>I'm a hands-on learner.</h5>
         <select data-placeholder="" class="chosen-select" id="q5">
             <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -79,8 +104,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3><strong>QUESTION #6</strong></h3>
-        <h4>Pokemon is cool.</h4>
+        <hr>
+
+        <h3>QUESTION <span class="badge badge-secondary">#6</span></h3>
+        <h5>Pokemon is cool.</h5>
         <select data-placeholder="" class="chosen-select" id="q6">
             <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -90,8 +117,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3><strong>QUESTION #7</strong></h3>
-        <h4>I'm very competitive and love a good fight.</h4>
+        <hr>
+
+        <h3>QUESTION <span class="badge badge-secondary">#7</span></h3>
+        <h5>I'm very competitive and love a good fight.</h5>
         <select data-placeholder="" class="chosen-select" id="q7">
             <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -101,8 +130,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3><strong>QUESTION #8</strong></h3>
-        <h4>I like to go with the flow of things.</h4>
+        <hr>
+
+        <h3>QUESTION <span class="badge badge-secondary">#8</span></h3>
+        <h5>I like to go with the flow of things.</h5>
         <select data-placeholder="" class="chosen-select" id="q8">
             <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -112,8 +143,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3><strong>QUESTION #9</strong></h3>
-        <h4>I like to work on my fitness.</h4>
+        <hr>
+
+        <h3>QUESTION <span class="badge badge-secondary">#9</span></h3>
+        <h5>I like to work on my fitness.</h5>
         <select data-placeholder="" class="chosen-select" id="q9">
             <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -123,8 +156,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 
-        <h3><strong>QUESTION #10</strong></h3>
-        <h4>I love anime.</h4>
+        <hr>
+
+        <h3>QUESTION <span class="badge badge-secondary">#10</span></h3>
+        <h5>I love anime.</h5>
         <select data-placeholder="" class="chosen-select" id="q10">
             <option value="">Select below</option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -140,29 +175,35 @@
         <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
                 aria-hidden="true"></i>Submit!</button>
 
+
+        <br>
+        <br>
+
         <footer>
             <div class="container">
-                <p><a href="/api/friends">API Element List</a> | <a href="https://github.com/ccudiamat/FriendFinder/tree/gh-pages">Github Repo</a></p>
+                <p><a href="/api/friends">API Element List</a> | <a
+                        href="https://github.com/ccudiamat/FriendFinder/tree/gh-pages">Github Repo</a> | <a
+                        href="/">Home Page</a> | <a href="#">Back to Top</a></p>
             </div>
         </footer>
     </div>
 
     <div id="resultsModal" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">BEST MATCH</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                    <h5 class="modal-title">Your Element is..</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <h2 id="matchName"></h2>
                     <img id="matchImg" src="" alt="">
                 </div>
-              </div>
             </div>
-          </div>    
+        </div>
+    </div>
 
 </body>
 
@@ -223,11 +264,6 @@
             })
         }
     })
-
-
-
-
-
 
 </script>
 
